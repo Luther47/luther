@@ -31,16 +31,18 @@ function initNavbar() {
 function initMobileMenu() {
   const menuBtn = document.getElementById('mobile-menu-btn');
   const mobileMenu = document.getElementById('mobile-menu');
-  const mobileLinks = document.querySelectorAll('.mobile-link');
+  const mobileLinks = document.querySelectorAll('.mobile-link, .mobile-menu .btn');
 
   menuBtn.addEventListener('click', () => {
     mobileMenu.classList.toggle('active');
+    menuBtn.classList.toggle('active');
     document.body.style.overflow = mobileMenu.classList.contains('active') ? 'hidden' : '';
   });
 
   mobileLinks.forEach(link => {
     link.addEventListener('click', () => {
       mobileMenu.classList.remove('active');
+      menuBtn.classList.remove('active');
       document.body.style.overflow = '';
     });
   });
