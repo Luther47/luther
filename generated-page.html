@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="fr" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NOVAE — Conseils en Performance Humaine & Stratégique CHR</title>
+  <meta name="description" content="Conseil en performance économique et structuration stratégique exclusif pour le secteur CHR. Vous pilotez. Nous vous donnons les instruments.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <div class="cursor-dot"></div>
+  <div class="cursor-glow"></div>
+  <div class="background-noise"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="brand-logo">
+        <span class="logo-text">NOVAE</span>
+      </a>
+      
+      <div class="nav-links desktop-only">
+        <a href="#marche" class="nav-link">Le Marché</a>
+        <a href="#methode" class="nav-link">Méthodologie</a>
+        <a href="#offres" class="nav-link">Offres</a>
+        <a href="#fondatrice" class="nav-link">Fondatrice</a>
+      </div>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary btn-sm desktop-only">
+          <span>Diagnostic Offert</span>
+        </a>
+        <button class="nav-toggle mobile-only" id="mobile-menu-btn" aria-label="Toggle Menu">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobile-menu">
+    <div class="mobile-menu-inner">
+      <a href="#marche" class="mobile-link">Le Marché</a>
+      <a href="#methode" class="mobile-link">Méthodologie</a>
+      <a href="#offres" class="mobile-link">Offres</a>
+      <a href="#fondatrice" class="mobile-link">Fondatrice</a>
+      <a href="#contact" class="btn btn-primary mt-8">
+        <span>Diagnostic Offert</span>
+      </a>
+    </div>
+  </div>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-bg">
+        <div class="hero-gradient"></div>
+        <img src="assets/hero-bg-2.jpeg" alt="Restaurant Interior Dark" class="hero-image" />
+        <div class="hero-overlay"></div>
+      </div>
+      
+      <div class="container hero-content">
+        <div class="badge fade-up delay-1">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12c0-4.714 0-7.071 1.464-8.536C4.93 2 7.286 2 12 2s7.071 0 8.535 1.464C22 4.93 22 7.286 22 12s0 7.071-1.465 8.535C19.072 22 16.714 22 12 22s-7.071 0-8.536-1.465C2 19.072 2 16.714 2 12Z"/><path stroke-linecap="round" d="M7 18V9m5 9V6m5 12v-5"/></g></svg>
+          <span>NOVAE - Agence spécialisée CHR</span>
+        </div>
+        
+        <h1 class="hero-title fade-up delay-2">
+          Conseils en Performance<br/><span class="text-gradient">Humaine & Stratégique</span>
+        </h1>
+        
+        <p class="hero-subtitle fade-up delay-3">
+          Conseil en performance économique et structuration stratégique exclusif pour le secteur CHR (Cafés, Hôtels, Restaurants).
+        </p>
+        
+        <p class="hero-quote fade-up delay-4">
+          « Vous pilotez. Nous vous donnons les instruments. »
+        </p>
+        
+        <div class="hero-actions fade-up delay-5">
+          <a href="#offres" class="btn btn-primary btn-lg shine-effect">
+            <span>Découvrir les Audits</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6"/></svg>
+          </a>
+        </div>
+        
+        <div class="hero-stats fade-up delay-5">
+          <div class="stat-item">
+            <h3 class="stat-value">1/3</h3>
+            <p class="stat-label">Ferme à 5 ans</p>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <h3 class="stat-value">3-8%</h3>
+            <p class="stat-label">Marge Nette Moyenne</p>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <h3 class="stat-value">Zéro</h3>
+            <p class="stat-label">Droit à l'erreur</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Marché Section -->
+    <section id="marche" class="section">
+      <div class="container">
+        <div class="grid-2 gap-xl align-center">
+          <div class="image-wrapper reveal-left">
+            <div class="glass-container aspect-portrait overflow-hidden rounded-xl">
+              <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1200&auto=format" alt="Cuisine professionnelle" class="cover-image parallax-img">
+              <div class="image-gradient-overlay"></div>
+            </div>
+          </div>
+          
+          <div class="content-wrapper reveal-right">
+            <div class="section-label">La réalité du marché CHR</div>
+            <h2 class="section-title">
+              Le marché ne pardonne plus l'<span class="text-gradient">approximation.</span>
+            </h2>
+            <p class="section-desc">
+              En France, près d'un établissement sur trois ferme ou change de propriétaire dans les 5 ans suivant l'ouverture. Les marges nettes moyennes se situent entre 3 % et 8 % ; la moindre dérive des coûts alimentaires (food cost) ou de la masse salariale peut les annuler. La réussite repose sur un pilotage par indicateurs précis plutôt que par intuition.
+            </p>
+            
+            <div class="highlight-box stagger-item delay-1 mt-md">
+              <strong class="text-primary">NOVAE</strong> vous donne les mêmes outils que les grands groupes - adaptés à votre réalité d'indépendant.
+            </div>
+            
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Marquee Splitter -->
+    <div class="marquee-section">
+      <div class="marquee-track">
+        <div class="marquee-content">
+          <span>Food Cost Réel</span><div class="dot"></div>
+          <span>Masse Salariale Optimisée</span><div class="dot"></div>
+          <span>Rentabilité Durable</span><div class="dot"></div>
+          <span>Pricing Stratégique</span><div class="dot"></div>
+          <span>Structuration CHR</span><div class="dot"></div>
+        </div>
+        <div class="marquee-content" aria-hidden="true">
+          <span>Food Cost Réel</span><div class="dot"></div>
+          <span>Masse Salariale Optimisée</span><div class="dot"></div>
+          <span>Rentabilité Durable</span><div class="dot"></div>
+          <span>Pricing Stratégique</span><div class="dot"></div>
+          <span>Structuration CHR</span><div class="dot"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Méthodologie Section -->
+    <section id="methode" class="section section-darker relative overflow-hidden">
+      <div class="ambient-glow right-glow"></div>
+      <div class="container text-center max-w-lg mb-xl relative z-10 reveal-up">
+        <div class="section-label centered">Méthodologie</div>
+        <h2 class="section-title">Une méthode en <span class="text-gradient">3 axes</span></h2>
+        <p class="section-desc" style="margin: 0 auto;">Née du terrain. Construite pour le CHR.</p>
+      </div>
+
+      <div class="container relative z-10">
+        <div class="process-wrapper">
+          <div class="process-line"></div>
+          <div class="grid-3 gap-lg process-grid">
+            
+            <div class="process-step stagger-item text-center">
+              <div class="step-icon-wrapper">
+                <svg class="step-icon" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="width: 2.5rem; height: 2.5rem;">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+              </div>
+              <h4 class="step-title">Analyse Personnalisée</h4>
+              <p class="step-desc font-medium mb-sm">Nous entrons dans votre établissement comme si c'était le nôtre.</p>
+              <p class="step-desc text-muted">Humain · Opérationnel · Financier - rien n'est laissé de côté. Nous voyons ce que les chiffres ne disent pas encore.</p>
+            </div>
+            
+            <div class="process-step stagger-item text-center delay-1">
+              <div class="step-icon-wrapper">
+                <svg class="step-icon" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12c0-4.714 0-7.071 1.464-8.536C4.93 2 7.286 2 12 2s7.071 0 8.535 1.464C22 4.93 22 7.286 22 12s0 7.071-1.465 8.535C19.072 22 16.714 22 12 22s-7.071 0-8.536-1.465C2 19.072 2 16.714 2 12Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M6 15.8L7.143 17L10 14M6 8.8L7.143 10L10 7"/><path stroke-linecap="round" d="M13 9h5m-5 7h5"/></g></svg>
+              </div>
+              <h4 class="step-title">Clarification des possibilités</h4>
+              <p class="step-desc font-medium mb-sm">Vous méritez des faits, pas des opinions.</p>
+              <p class="step-desc text-muted">Chaque option est posée à plat, chiffrée, comparée. Vous sortez de chaque séance avec une vision plus nette - pas plus de questions.</p>
+            </div>
+            
+            <div class="process-step stagger-item text-center delay-2">
+              <div class="step-icon-wrapper">
+                <svg class="step-icon" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m7.58 15.008l.53-.531zm0-5.477L7.05 9zm6.867 6.846l.53.531zm-5.494 0l-.53.531zm2.747 1.936v.75zm8.594-7.765l-.53-.531zm-5.355-9.02a.75.75 0 0 0 .572 1.386zM7.737 15.16a.75.75 0 1 0 1.06 1.062zm3.12-.991a.75.75 0 1 0-1.06-1.063zm1.362 4.049l.26.704zm-6.47-6.512l-.695-.28zm7.28-6.55a.75.75 0 1 0-1.058-1.063zm6.735 4.86l-5.847 5.829l1.06 1.062l5.846-5.83zm-10.281 5.83l-1.374-1.37L7.05 15.54l1.374 1.37zM17.547 2.75h.569v-1.5h-.57zm3.703 3.123v.567h1.5v-.567zM18.116 2.75c.936 0 1.564.002 2.031.064c.446.06.633.163.755.284l1.059-1.062c-.447-.446-1.003-.626-1.614-.708c-.59-.08-1.337-.078-2.231-.078zm4.634 3.123c0-.892.002-1.636-.078-2.225c-.082-.611-.264-1.166-.711-1.612L20.9 3.098c.122.121.225.307.285.75c.063.466.064 1.09.064 2.025zM8.11 14.477c-.663-.66-1.105-1.104-1.391-1.478c-.273-.356-.331-.56-.331-.73h-1.5c0 .632.265 1.152.64 1.642c.361.472.89.997 1.522 1.628zm.314 2.431c.632.63 1.159 1.158 1.632 1.518c.492.374 1.013.637 1.644.637v-1.5c-.173 0-.378-.059-.735-.33c-.375-.286-.82-.727-1.482-1.387zm12.4-5.83c.798-.795 1.354-1.332 1.647-2.036l-1.385-.575c-.151.364-.436.667-1.322 1.55zm.426-4.638c0 1.249-.013 1.663-.164 2.027l1.385.575c.292-.704.28-1.476.28-2.602zm-3.703-5.19c-1.13 0-1.903-.013-2.608.278l.572 1.386c.366-.15.784-.164 2.036-.164zm-8.75 14.973l2.06-2.053l-1.06-1.063l-2.06 2.054zm5.12-.377c-.511.51-.896.893-1.226 1.178c-.332.287-.556.426-.731.491l.518 1.408c.428-.158.814-.436 1.193-.764s.808-.755 1.305-1.25zm-1.957 1.669a.7.7 0 0 1-.26.048v1.5q.404-.001.778-.14zM7.05 9c-.485.484-.904.901-1.23 1.272c-.324.37-.6.745-.766 1.156l1.392.56c.07-.177.216-.4.502-.727c.285-.325.663-.702 1.161-1.2zm-1.996 2.428a2.2 2.2 0 0 0-.166.841h1.5c0-.09.016-.179.058-.282zm3.055-1.366l4.92-4.906l-1.058-1.062L7.05 9z"/><path fill="currentColor" d="m5.573 11.532l.53-.53V11zm4.347-4.11a.75.75 0 1 0 .811-1.261zm-.224-1.035l.406-.63zm-2.57-1.319l.11-.742zm-4.9 2.956l.529.53zm3.113-2.727l.288.692zm-2.476 4.13l-.276.697zm-.162.742a.75.75 0 0 0 .571-1.387zm-.217-.893l.277-.697zm2.735 2.962a.75.75 0 0 0 1.06-1.06zm.403-1.716a.75.75 0 1 0-1.059 1.062zm5.11-4.361l-.63-.405l-.812 1.261l.63.405zm-.63-.405c-.621-.4-1.123-.723-1.554-.956c-.442-.238-.855-.406-1.312-.474L7.017 5.81c.22.033.46.117.819.31c.368.2.814.485 1.454.897zM2.755 8.555a57 57 0 0 1 1.71-1.659c.27-.247.518-.46.73-.623c.223-.172.365-.256.432-.284l-.575-1.385c-.257.107-.527.291-.773.481c-.258.2-.54.442-.826.703c-.572.522-1.2 1.149-1.757 1.705zm4.481-4.229a4.13 4.13 0 0 0-2.184.278l.575 1.385a2.63 2.63 0 0 1 1.39-.179zM2.208 9.974l.379.15l.552-1.395l-.378-.15zm.379.15l.114.045l.571-1.387l-.133-.053zm-.891-2.631a1.514 1.514 0 0 0 .512 2.48l.553-1.394l-.007-.003l-.003-.008V8.56l.004-.005zm3.347 4.569l.176.176l1.06-1.06L6.105 11zm-.48-.478l.48.479L6.104 11l-.48-.48zM12.5 18.5l-.53.53l.035.034zm5.323-5.268a.75.75 0 0 0-1.259.815zm-.223 1.035l-.63.408zm1.322 2.562l.742-.11zm-2.964 4.887l-.53-.531zm2.735-3.105l-.692-.29zm-3.248 2.686a.75.75 0 1 0-1.393.555zm-2.917-1.774a.75.75 0 1 0 .989-1.128zm3.346 2.276l.53.532zm-3.125-4.11a.75.75 0 0 0-1.061 1.06zm3.815-3.642l.406.628l1.26-.816l-.407-.627zm-1.135 7.138l-.085.083l1.06 1.063l.084-.084zm1.541-6.51c.414.638.7 1.082.9 1.45c.194.357.278.596.31.814l1.484-.22c-.068-.457-.237-.87-.476-1.31c-.233-.43-.557-.93-.958-1.55zm-.482 7.572c.557-.556 1.186-1.183 1.71-1.753c.261-.285.505-.565.704-.822c.19-.246.376-.515.483-.772l-1.384-.578a2.3 2.3 0 0 1-.284.43a12 12 0 0 1-.625.728c-.497.541-1.1 1.143-1.663 1.705zm1.693-5.308c.067.456.007.934-.18 1.383l1.384.578c.29-.693.388-1.448.28-2.181zm-4.664 1.456l-.523-.459l-.989 1.128l.523.459zm1.828 2.873a.1.1 0 0 1 .028-.016l.022-.001l.024.012q.018.016.026.034l-1.393.555c.384.964 1.632 1.196 2.352.479zM13.03 17.97l-.281-.281l-1.061 1.06l.281.282zm.887-7.341a.75.75 0 1 0 1.06-1.063zm2.747-1.063a.75.75 0 0 0 1.059 1.063zm1.059-2.738a2.696 2.696 0 0 0-3.806 0l1.06 1.062a1.196 1.196 0 0 1 1.687 0zm-3.806 0a2.68 2.68 0 0 0 0 3.8l1.06-1.062a1.18 1.18 0 0 1 0-1.676zm3.806 3.8a2.68 2.68 0 0 0 0-3.8l-1.06 1.062a1.18 1.18 0 0 1 0 1.676z"/></svg>
+              </div>
+              <h4 class="step-title">Décision et mise en action</h4>
+              <p class="step-desc font-medium mb-sm">Vous décidez et nous vous accompagnons dans la mise en action de vos décisions.</p>
+              <p class="step-desc text-muted">Objectif : Piloter votre activité avec clarté, méthode et maîtrise.</p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ce que vous gagnez Section -->
+    <section id="resultats" class="section relative overflow-hidden border-t-light">
+      <div class="ambient-glow left-glow"></div>
+      <div class="container relative z-10">
+        
+        <div class="offer-header reveal-up">
+          <div class="offer-header-text">
+            <div class="section-label">Ce que vous gagnez concrètement</div>
+            <h2 class="section-title">Pas de promesses.<br/>Des résultats <span class="text-gradient">mesurables.</span></h2>
+          </div>
+        </div>
+
+        <div class="grid-2 gap-md cards-grid mb-xl">
+          
+          <!-- Vision claire -->
+          <div class="card glass-card hover-glow reveal-up border-gradient">
+            <div class="card-icon primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" style="font-size: 2rem;"><g fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3.275 15.296C2.425 14.192 2 13.639 2 12c0-1.64.425-2.191 1.275-3.296C4.972 6.5 7.818 4 12 4s7.028 2.5 8.725 4.704C21.575 9.81 22 10.361 22 12c0 1.64-.425 2.191-1.275 3.296C19.028 17.5 16.182 20 12 20s-7.028-2.5-8.725-4.704Z"/><path d="M15 12a3 3 0 1 1-6 0a3 3 0 0 1 6 0Z"/></g></svg>
+            </div>
+            <h3 class="card-title" style="font-size: 1.25rem;">Vision claire</h3>
+            <p class="font-medium mb-sm text-primary" style="margin-top: 0.5rem; color: var(--accent-primary);">Enfin, vous savez où va votre argent.</p>
+            <p class="text-muted text-sm">Food cost réel, masse salariale optimisée, ticket moyen analysé : vous pilotez avec des chiffres vrais, pas des estimations.</p>
+          </div>
+
+          <!-- Marges optimisées -->
+          <div class="card glass-card hover-glow reveal-up delay-1 border-gradient">
+            <div class="card-icon primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" style="font-size: 2rem;"><g fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12c0-4.714 0-7.071 1.464-8.536C4.93 2 7.286 2 12 2s7.071 0 8.535 1.464C22 4.93 22 7.286 22 12s0 7.071-1.465 8.535C19.072 22 16.714 22 12 22s-7.071 0-8.536-1.465C2 19.072 2 16.714 2 12Z"/><path stroke-linecap="round" stroke-linejoin="round" d="m7 14l2.293-2.293a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 0 1.414 0L17 10m0 0v2.5m0-2.5h-2.5"/></g></svg>
+            </div>
+            <h3 class="card-title" style="font-size: 1.25rem;">Marges optimisées</h3>
+            <p class="font-medium mb-sm text-primary" style="margin-top: 0.5rem; color: var(--accent-primary);">Chaque point de marge compte. Nous allons les chercher.</p>
+            <p class="text-muted text-sm">Réduction des pertes cachées, meilleur pricing, charges fixes passées au crible : la rentabilité remonte durablement.</p>
+          </div>
+
+          <!-- Organisation qui tourne -->
+          <div class="card glass-card hover-glow reveal-up border-gradient">
+            <div class="card-icon primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" style="font-size: 2rem;"><g fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4.979 9.685C2.993 8.891 2 8.494 2 8s.993-.89 2.979-1.685l2.808-1.123C9.773 4.397 10.767 4 12 4s2.227.397 4.213 1.192l2.808 1.123C21.007 7.109 22 7.506 22 8s-.993.89-2.979 1.685l-2.808 1.124C14.227 11.603 13.233 12 12 12s-2.227-.397-4.213-1.191z"/><path d="m5.766 10l-.787.315C2.993 11.109 2 11.507 2 12s.993.89 2.979 1.685l2.808 1.124C9.773 15.603 10.767 16 12 16s2.227-.397 4.213-1.191l2.808-1.124C21.007 12.891 22 12.493 22 12s-.993-.89-2.979-1.685L18.234 10"/><path d="m5.766 14l-.787.315C2.993 15.109 2 15.507 2 16s.993.89 2.979 1.685l2.808 1.124C9.773 19.603 10.767 20 12 20s2.227-.397 4.213-1.192l2.808-1.123C21.007 16.891 22 16.494 22 16c0-.493-.993-.89-2.979-1.685L18.234 14"/></g></svg>
+            </div>
+            <h3 class="card-title" style="font-size: 1.25rem;">Organisation qui tourne</h3>
+            <p class="font-medium mb-sm text-primary" style="margin-top: 0.5rem; color: var(--accent-primary);">Votre équipe produit ce qu'elle devrait produire.</p>
+            <p class="text-muted text-sm">Plannings cohérents, process clarifiés, zones de perte d'efficacité identifiées et corrigées.</p>
+          </div>
+
+          <!-- Décisions débloquées -->
+          <div class="card glass-card hover-glow reveal-up delay-1 border-gradient">
+            <div class="card-icon primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" style="font-size: 2rem;"><g fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linejoin="round" d="M15.68 14.587c3.49 0 6.32-2.818 6.32-6.294S19.17 2 15.68 2S9.363 4.818 9.363 8.293c0 1.61.734 2.781.734 2.781l-7.642 7.61c-.343.342-.823 1.23 0 2.05l.882.878c.343.293 1.205.703 1.91 0l1.03-1.024c1.028 1.024 2.204.439 2.645-.147c.734-1.024-.147-2.049-.147-2.049l.294-.293c1.41 1.406 2.645.586 3.086 0c.735-1.024 0-2.049 0-2.049c-.294-.585-.882-.585-.147-1.317l.882-.878c.705.585 2.155.732 2.792.732Z"/><path d="M17.885 8.294a2.2 2.2 0 0 1-2.204 2.195a2.2 2.2 0 0 1-2.204-2.195a2.2 2.2 0 0 1 2.204-2.196a2.2 2.2 0 0 1 2.204 2.196Z"/></g></svg>
+            </div>
+            <h3 class="card-title" style="font-size: 1.25rem;">Décisions débloquées</h3>
+            <p class="font-medium mb-sm text-primary" style="margin-top: 0.5rem; color: var(--accent-primary);">Vous n'attendez plus. Vous agissez.</p>
+            <p class="text-muted text-sm">Un cadre structuré pour trancher ce qui traîne : recrutement, investissement, repositionnement, cession.</p>
+          </div>
+          
+        </div>
+
+        <div class="quote-container text-center reveal-up">
+          <p class="quote-text" style="font-size: 1.5rem; padding: 2rem 0; margin-bottom: 0;">« Redonner au dirigeant une capacité de décision structurée, sereine et tournée vers demain. »</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Offres Section -->
+    <section id="offres" class="section relative overflow-hidden">
+      <div class="ambient-glow left-glow"></div>
+      <div class="container relative z-10">
+        
+        <div class="offer-header reveal-up">
+          <div class="offer-header-text">
+            <div class="section-label">Interventions</div>
+            <h2 class="section-title">Les offres d'<span class="text-gradient">Audit</span></h2>
+          </div>
+          <div class="offer-header-desc">
+            <p>Des formats structurés pour identifier les freins, construire un nouveau modèle ou sécuriser des décisions majeures.</p>
+          </div>
+        </div>
+
+        <div class="grid-3 gap-md cards-grid">
+          
+          <!-- Card 1 -->
+          <div class="card glass-card hover-glow reveal-up border-gradient">
+            <div class="card-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="8"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+            </div>
+            <h3 class="card-title">Audit Analyse</h3>
+            <div class="card-price">890 € <span class="price-sub">tout inclus</span></div>
+            
+            <div class="card-body">
+              <div class="card-feature">
+                <span class="feature-label">Objectif</span>
+                <p>État des lieux à 360° (opérationnel, humain, commercial) pour identifier les freins à la performance.</p>
+              </div>
+              <div class="card-feature">
+                <span class="feature-label">Éléments analysés</span>
+                <p>Plannings, carte/couverts, stocks et approvisionnements.</p>
+              </div>
+              <div class="card-feature">
+                <span class="feature-label">Résultat</span>
+                <p>Rapport écrit complet : ce qui coûte sans rapporter et par où commencer.</p>
+              </div>
+            </div>
+            <div class="card-footer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l2.5 2.5"/></g></svg>
+              <span>3 à 4 rdv d'1h30 sur 30 jours.</span>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="card glass-card hover-glow reveal-up delay-1 border-gradient-primary">
+            <div class="card-icon primary">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12S6.477 2 12 2s10 4.477 10 10Z"/><path stroke-linecap="round" d="M2 12h3m14 0h3M12 22v-3m0-14V2"/><path stroke-linecap="round" stroke-linejoin="round" d="M10 12h4m-2 2v-4"/></g></svg>
+            </div>
+            <h3 class="card-title">Audit Repositionnement</h3>
+            <div class="card-price highlight">1 490 € <span class="price-sub">tout inclus</span></div>
+            
+            <div class="card-body">
+              <div class="card-feature">
+                <span class="feature-label">Objectif</span>
+                <p>Analyser les 3 derniers bilans et l'organisation pour retrouver la rentabilité et un nouveau modèle.</p>
+              </div>
+              <div class="card-feature">
+                <span class="feature-label">Éléments analysés</span>
+                <p>Structure de coûts, leviers de marge (pricing, mix produit), modélisation.</p>
+              </div>
+              <div class="card-feature">
+                <span class="feature-label">Résultat</span>
+                <p>Vision claire, décisions concrètes sous 90 jours et modèle recalibré.</p>
+              </div>
+            </div>
+            <div class="card-footer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l2.5 2.5"/></g></svg>
+              <span>3 à 5 rdv d'1h30 sur 60 jours.</span>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="card glass-card hover-glow reveal-up delay-2 border-gradient">
+            <div class="card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.5" d="m3.165 19.503l7.362-16.51c.59-1.324 2.355-1.324 2.946 0l7.362 16.51c.667 1.495-.814 3.047-2.202 2.306l-5.904-3.152c-.459-.245-1-.245-1.458 0l-5.904 3.152c-1.388.74-2.87-.81-2.202-2.306Z"/></svg>
+            </div>
+            <h3 class="card-title">Audit Stratégique</h3>
+            <div class="card-price">1 990 € <span class="price-sub">tout inclus</span></div>
+            
+            <div class="card-body">
+              <div class="card-feature">
+                <span class="feature-label">Objectif</span>
+                <p>Apporter de la clarté lors de décisions majeures (vendre, repositionner, lever des fonds, acquérir).</p>
+              </div>
+              <div class="card-feature">
+                <span class="feature-label">Éléments analysés</span>
+                <p>Comparaison de scénarios, audit financier complet (valorisation, risques).</p>
+              </div>
+              <div class="card-feature">
+                <span class="feature-label">Résultat</span>
+                <p>Accompagnement jusqu'à la finalisation et la mise en action structurée.</p>
+              </div>
+            </div>
+            <div class="card-footer">
+              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l2.5 2.5"/></g></svg>
+              <span>4 à 5 rdv d'1h30 sur 90 jours.</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Fondatrice Section -->
+    <section id="fondatrice" class="section section-darker">
+      <div class="container">
+        <div class="grid-2 gap-xl align-center">
+          
+          <div class="content-wrapper order-mobile-2 reveal-left">
+            <div class="section-label">Profil de la fondatrice</div>
+            <h2 class="section-title">
+              Géraldine <span class="text-gradient">CANIS</span>
+            </h2>
+            <p class="quote-text">« L'expertise du terrain alliée à la rigueur stratégique. »</p>
+            
+            <div class="founder-features">
+              <div class="founder-feature stagger-item">
+                <div class="founder-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" d="M22 22H2"/><path d="M21 22V6c0-1.886 0-2.828-.586-3.414S18.886 2 17 2h-2c-1.886 0-2.828 0-3.414.586c-.472.471-.564 1.174-.582 2.414"/><path d="M15 22V9c0-1.886 0-2.828-.586-3.414S12.886 5 11 5H7c-1.886 0-2.828 0-3.414.586S3 7.114 3 9v13"/><path stroke-linecap="round" d="M9 22v-3M6 8h6m-6 3h6m-6 3h6"/></g></svg></div>
+                <div class="founder-text">
+                  <h4>Expérience de terrain</h4>
+                  <p>20 ans d'expérience. Ancienne gérante de 4 restaurants parisiens, pilotant un chiffre d'affaires de 1,8 M€ à 2,3 M€ par an avec la gestion de 200 salariés.</p>
+                </div>
+              </div>
+              <div class="founder-feature stagger-item delay-1">
+                <div class="founder-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="6" r="4"/><path stroke-linecap="round" d="M18 9c1.657 0 3-1.12 3-2.5S19.657 4 18 4M6 9C4.343 9 3 7.88 3 6.5S4.343 4 6 4"/><ellipse cx="12" cy="17" rx="6" ry="4"/><path stroke-linecap="round" d="M20 19c1.754-.385 3-1.359 3-2.5s-1.246-2.115-3-2.5M4 19c-1.754-.385-3-1.359-3-2.5s1.246-2.115 3-2.5"/></g></svg></div>
+                <div class="founder-text">
+                  <h4>Réalisations majeures</h4>
+                  <p>Experte en restructuration d'équipes complexes et pilotage stratégique lors de cessions ou de reprises d'établissements.</p>
+                </div>
+              </div>
+              <div class="founder-feature stagger-item delay-2">
+                <div class="founder-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 17.998c-2.175-.012-3.353-.108-4.121-.877C2 16.243 2 14.828 2 12V8c0-2.828 0-4.243.879-5.121C3.757 2 5.172 2 8 2h8c2.828 0 4.243 0 5.121.879C22 3.757 22 5.172 22 8v4c0 2.828 0 4.243-.879 5.121c-.73.73-1.829.854-3.801.875l-.82.002"/><path stroke-linecap="round" d="M9 6h6M7 9.5h10"/><path d="M10.89 13.945a1.71 1.71 0 0 1 2.22 0c.273.234.614.375.972.404a1.71 1.71 0 0 1 1.57 1.568c.028.36.169.7.402.974a1.71 1.71 0 0 1 0 2.218a1.7 1.7 0 0 0-.403.974a1.71 1.71 0 0 1-1.569 1.569a1.7 1.7 0 0 0-.973.403a1.71 1.71 0 0 1-2.219 0a1.7 1.7 0 0 0-.973-.404a1.71 1.71 0 0 1-1.569-1.568a1.7 1.7 0 0 0-.403-.974a1.71 1.71 0 0 1 0-2.218a1.7 1.7 0 0 0 .403-.974a1.71 1.71 0 0 1 1.57-1.568c.358-.029.699-.17.973-.404Z"/><path stroke-linecap="round" stroke-linejoin="round" d="m10.5 18.2l.857.8l2.143-2"/></g></svg></div>
+                <div class="founder-text">
+                  <h4>Expertises certifiées</h4>
+                  <p>Coach certifiée, praticienne PNL, formatrice et consultante spécialisée en transitions professionnelles.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="image-wrapper order-mobile-1 reveal-right">
+            <div class="glass-container aspect-portrait rounded-lg relative overflow-hidden">
+              <img src="assets/geraldine.png" alt="Géraldine CANIS" class="cover-image grayscale-stylized parallax-img">
+              <div class="image-gradient-overlay"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Confidentiality banner -->
+    <div class="confidentiality-banner reveal-scale">
+      <div class="container text-center">
+        <div class="shield-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 10.417c0-3.198 0-4.797.378-5.335c.377-.537 1.88-1.052 4.887-2.081l.573-.196C10.405 2.268 11.188 2 12 2s1.595.268 3.162.805l.573.196c3.007 1.029 4.51 1.544 4.887 2.081C21 5.62 21 7.22 21 10.417v1.574c0 5.638-4.239 8.375-6.899 9.536C13.38 21.842 13.02 22 12 22s-1.38-.158-2.101-.473C7.239 20.365 3 17.63 3 11.991z"/><path stroke-linecap="round" stroke-linejoin="round" d="m9.5 12.4l1.429 1.6l3.571-4"/></g></svg>
+        </div>
+        <h3 class="banner-title">Engagement de confidentialité</h3>
+        <p class="banner-desc">
+          Confidentialité totale et absolue des données financières, opérationnelles et stratégiques. Les documents transmis sont utilisés exclusivement dans le cadre strict de la mission.
+        </p>
+      </div>
+    </div>
+
+    <!-- Contact & Form Section -->
+    <section id="contact" class="section section-darker relative overflow-hidden border-t-light">
+      <div class="ambient-glow left-glow"></div>
+      <div class="container relative z-10">
+        
+        <div class="grid-2 gap-xl align-stretch">
+          
+          <!-- Contact Info Side -->
+          <div class="contact-info-side reveal-left">
+            <div class="section-label">Travaillons ensemble</div>
+            <h2 class="section-title" style="font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 2rem;">
+              Votre premier diagnostic commence par une <span class="text-gradient">conversation.</span>
+            </h2>
+            
+            <div class="contact-text-block mb-lg">
+              <p class="mb-sm text-body font-medium">
+                Vous sentez que quelque chose peut être amélioré dans votre établissement - mais vous ne savez pas exactement par où commencer. C'est précisément pour ça que nous sommes là.
+              </p>
+              <p class="text-body text-muted">
+                Un échange de 30 minutes suffit pour identifier les premiers leviers. Sans engagement. Sans jargon. En toute confidentialité.
+              </p>
+            </div>
+            
+            <div class="contact-details grid-2 gap-md mb-xl" style="padding-bottom: 2rem; border-bottom: 1px solid var(--border-light);">
+              <div class="contact-item fade-up delay-1">
+                <div class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12c0-3.771 0-5.657 1.172-6.828S6.229 4 10 4h4c3.771 0 5.657 0 6.828 1.172S22 8.229 22 12s0 5.657-1.172 6.828S17.771 20 14 20h-4c-3.771 0-5.657 0-6.828-1.172S2 15.771 2 12Z"/><path stroke-linecap="round" d="m6 8l2.159 1.8c1.837 1.53 2.755 2.295 3.841 2.295s2.005-.765 3.841-2.296L18 8"/></g></svg></div>
+                <h4 class="contact-item-title">Email</h4>
+                <a href="mailto:novae@geraldinecanis.com" class="contact-item-link">novae@geraldinecanis.com</a>
+              </div>
+              <div class="contact-item fade-up delay-2">
+                <div class="contact-icon"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m16.1 13.359l-.528-.532zm.456-.453l.529.532zm2.417-.317l-.358.66zm1.91 1.039l-.358.659zm.539 3.255l.529.532zm-1.42 1.412l-.53-.531zm-1.326.67l.07.747zm-9.86-4.238l.528-.532zM4.002 5.746l-.749.042zm6.474 1.451l.53.532zm.157-2.654l.6-.449zM9.374 2.86l-.601.45zM6.26 2.575l.53.532zm-1.57 1.56l-.528-.531zm7.372 7.362l.529-.532zm4.567 2.394l.455-.453l-1.058-1.064l-.455.453zm1.985-.643l1.91 1.039l.716-1.318l-1.91-1.038zm2.278 3.103l-1.42 1.413l1.057 1.063l1.42-1.412zm-2.286 1.867c-1.45.136-5.201.015-9.263-4.023l-1.057 1.063c4.432 4.407 8.65 4.623 10.459 4.454zm-9.263-4.023c-3.871-3.85-4.512-7.087-4.592-8.492l-1.498.085c.1 1.768.895 5.356 5.033 9.47zm1.376-6.18l.286-.286L9.95 6.666l-.287.285zm.515-3.921L9.974 2.41l-1.201.899l1.26 1.684zM5.733 2.043l-1.57 1.56l1.058 1.064l1.57-1.56zm4.458 5.44c-.53-.532-.53-.532-.53-.53h-.002l-.003.004a1 1 0 0 0-.127.157c-.054.08-.113.185-.163.318a2.1 2.1 0 0 0-.088 1.071c.134.865.73 2.008 2.256 3.526l1.058-1.064c-1.429-1.42-1.769-2.284-1.832-2.692c-.03-.194.001-.29.01-.312q.009-.02 0-.006a.3.3 0 0 1-.03.039l-.01.01l-.01.009zm1.343 4.546c1.527 1.518 2.676 2.11 3.542 2.242c.443.068.8.014 1.071-.087a1.5 1.5 0 0 0 .42-.236l.05-.045l.007-.006l.003-.003l.001-.002s.002-.001-.527-.533c-.53-.532-.528-.533-.528-.533l.002-.002l.002-.002l.006-.005l.01-.01l.038-.03q.014-.009-.007.002c-.025.009-.123.04-.32.01c-.414-.064-1.284-.404-2.712-1.824zm-1.56-9.62C8.954 1.049 6.95.834 5.733 2.044L6.79 3.107c.532-.529 1.476-.475 1.983.202zM4.752 5.704c-.02-.346.139-.708.469-1.036L4.163 3.604c-.537.534-.96 1.29-.909 2.184zm14.72 12.06c-.274.274-.57.428-.865.455l.139 1.494c.735-.069 1.336-.44 1.784-.885zM11.006 7.73c.985-.979 1.058-2.527.229-3.635l-1.201.899c.403.539.343 1.246-.085 1.673zm9.52 6.558c.817.444.944 1.49.367 2.064l1.058 1.064c1.34-1.333.927-3.557-.71-4.446zm-3.441-.849c.384-.382 1.002-.476 1.53-.19l.716-1.317c-1.084-.59-2.428-.427-3.304.443z"/></svg></div>
+                <h4 class="contact-item-title">Téléphone</h4>
+                <a href="tel:0620356597" class="contact-item-link">06.20.35.65.97</a>
+              </div>
+            </div>
+            
+            <div class="contact-brand-note fade-up delay-3">
+              <div class="logo-text mb-sm" style="font-size: 1.5rem;">NOVAE</div>
+              <h4 class="font-medium text-primary">Humains & Stratégies</h4>
+              <p class="text-muted text-sm mt-xs" style="margin-top: 0.5rem; line-height: 1.4;">Votre performance commence par une conversation. <br>La première est offerte.</p>
+            </div>
+          </div>
+          
+          <!-- Form Side -->
+          <div class="contact-form-side reveal-right flex-center">
+            <div class="glass-container p-xl w-full" style="padding: 2.5rem; width: 100%;">
+              <h3 class="font-heading mb-lg" style="font-size: 1.5rem; margin-bottom: 2rem; color: var(--text-primary);">Demander un diagnostic</h3>
+              <form class="custom-form">
+                
+                <div class="form-group stagger-item">
+                  <label for="name" class="form-label">Nom complet</label>
+                  <input type="text" id="name" class="form-input" placeholder="Jean Dupont" required>
+                </div>
+                
+                <div class="form-group stagger-item delay-1">
+                  <label for="email" class="form-label">Email</label>
+                  <input type="email" id="email" class="form-input" placeholder="jean@restaurant.com" required>
+                </div>
+                
+                <div class="form-group stagger-item delay-2">
+                  <label for="establishment" class="form-label">Nom de l'établissement</label>
+                  <input type="text" id="establishment" class="form-input" placeholder="Le Bistrot Parisien">
+                </div>
+                
+                <div class="form-group stagger-item delay-3">
+                  <label for="message" class="form-label">Votre situation actuelle</label>
+                  <textarea id="message" class="form-textarea" rows="4" placeholder="Décrivez brièvement votre besoin ou problématique..." required></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary w-full mt-md stagger-item delay-4 shine-effect" style="width: 100%; margin-top: 1.5rem;">
+                  <span>Envoyer la demande</span>
+                  <svg style="font-size: 1.25rem; margin-top: 2px;" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 12h16m0 0l-6-6m6 6l-6 6"/></svg>
+                </button>
+                
+              </form>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="grid-3 gap-lg footer-grid mb-xl">
+        
+        <div class="footer-brand reveal-up">
+          <div class="logo-text lg mb-sm">NOVAE</div>
+          <p class="footer-desc max-w-sm">
+            Conseils en Performance Humaine & Stratégique pour le secteur CHR. Vous pilotez. Nous vous donnons les instruments.
+          </p>
+        </div>
+        
+        <div class="footer-links reveal-up delay-1">
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="clean-list">
+            <li><a href="#marche">La Réalité du Marché</a></li>
+            <li><a href="#methode">Méthodologie en 3 axes</a></li>
+            <li><a href="#offres">Les Offres d'Audit</a></li>
+            <li><a href="#fondatrice">Géraldine CANIS</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact reveal-up delay-2">
+          <h4 class="footer-heading">Contact direct</h4>
+          <ul class="clean-list">
+            <li>
+              <a href="tel:0620356597" class="footer-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="m16.1 13.359l-.528-.532zm.456-.453l.529.532zm2.417-.317l-.358.66zm1.91 1.039l-.358.659zm.539 3.255l.529.532zm-1.42 1.412l-.53-.531zm-1.326.67l.07.747zm-9.86-4.238l.528-.532zM4.002 5.746l-.749.042zm6.474 1.451l.53.532zm.157-2.654l.6-.449zM9.374 2.86l-.601.45zM6.26 2.575l.53.532zm-1.57 1.56l-.528-.531zm7.372 7.362l.529-.532zm4.567 2.394l.455-.453l-1.058-1.064l-.455.453zm1.985-.643l1.91 1.039l.716-1.318l-1.91-1.038zm2.278 3.103l-1.42 1.413l1.057 1.063l1.42-1.412zm-2.286 1.867c-1.45.136-5.201.015-9.263-4.023l-1.057 1.063c4.432 4.407 8.65 4.623 10.459 4.454zm-9.263-4.023c-3.871-3.85-4.512-7.087-4.592-8.492l-1.498.085c.1 1.768.895 5.356 5.033 9.47zm1.376-6.18l.286-.286L9.95 6.666l-.287.285zm.515-3.921L9.974 2.41l-1.201.899l1.26 1.684zM5.733 2.043l-1.57 1.56l1.058 1.064l1.57-1.56zm4.458 5.44c-.53-.532-.53-.532-.53-.53h-.002l-.003.004a1 1 0 0 0-.127.157c-.054.08-.113.185-.163.318a2.1 2.1 0 0 0-.088 1.071c.134.865.73 2.008 2.256 3.526l1.058-1.064c-1.429-1.42-1.769-2.284-1.832-2.692c-.03-.194.001-.29.01-.312q.009-.02 0-.006a.3.3 0 0 1-.03.039l-.01.01l-.01.009zm1.343 4.546c1.527 1.518 2.676 2.11 3.542 2.242c.443.068.8.014 1.071-.087a1.5 1.5 0 0 0 .42-.236l.05-.045l.007-.006l.003-.003l.001-.002s.002-.001-.527-.533c-.53-.532-.528-.533-.528-.533l.002-.002l.002-.002l.006-.005l.01-.01l.038-.03q.014-.009-.007.002c-.025.009-.123.04-.32.01c-.414-.064-1.284-.404-2.712-1.824zm-1.56-9.62C8.954 1.049 6.95.834 5.733 2.044L6.79 3.107c.532-.529 1.476-.475 1.983.202zM4.752 5.704c-.02-.346.139-.708.469-1.036L4.163 3.604c-.537.534-.96 1.29-.909 2.184zm14.72 12.06c-.274.274-.57.428-.865.455l.139 1.494c.735-.069 1.336-.44 1.784-.885zM11.006 7.73c.985-.979 1.058-2.527.229-3.635l-1.201.899c.403.539.343 1.246-.085 1.673zm9.52 6.558c.817.444.944 1.49.367 2.064l1.058 1.064c1.34-1.333.927-3.557-.71-4.446zm-3.441-.849c.384-.382 1.002-.476 1.53-.19l.716-1.317c-1.084-.59-2.428-.427-3.304.443z"/></svg>
+                <span>06.20.35.65.97</span>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:novae@geraldinecanis.com" class="footer-link">
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12c0-3.771 0-5.657 1.172-6.828S6.229 4 10 4h4c3.771 0 5.657 0 6.828 1.172S22 8.229 22 12s0 5.657-1.172 6.828S17.771 20 14 20h-4c-3.771 0-5.657 0-6.828-1.172S2 15.771 2 12Z"/><path stroke-linecap="round" d="m6 8l2.159 1.8c1.837 1.53 2.755 2.295 3.841 2.295s2.005-.765 3.841-2.296L18 8"/></g></svg>
+                <span>novae@geraldinecanis.com</span>
+              </a>
+            </li>
+          </ul>
+          <p class="footer-note mt-md opacity-60 text-sm italic">Diagnostic offert de 30 min sans engagement.</p>
+        </div>
+
+      </div>
+      
+      <div class="footer-bottom reveal-up delay-3 pt-lg border-t-light">
+        <div class="copyright text-sm opacity-60">© 2024 NOVAE — Géraldine CANIS. Tous droits réservés.</div>
+        <div class="legal-links flex gap-md text-sm opacity-60">
+          <a href="#" class="hover-white">Mentions légales</a>
+          <a href="#" class="hover-white">Politique de confidentialité</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
